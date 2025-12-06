@@ -11,31 +11,31 @@ El programa simula un **sistema de creación, envío y registro de mensajes**, d
 
 # 📁 Estructura del Proyecto
 
-src/
-│
-├── main/
-│ └── Main.java
-│
-├── factory/ (Patrón Creacional: Factory Method)
-│ ├── Mensaje.java
-│ ├── Email.java
-│ ├── SMS.java
-│ ├── Push.java
-│ ├── CreadorMensaje.java
-│ ├── CreadorEmail.java
-│ ├── CreadorSMS.java
-│ └── CreadorPush.java
-│
-├── decorator/ (Patrón Estructural: Decorator)
-│ ├── MensajeDecorator.java
-│ ├── EncriptadoDecorator.java
-│ └── ComprimidoDecorator.java
-│
-└── observer/ (Patrón Comportamiento: Observer)
-├── Observador.java
-├── ObservadorConsola.java
-├── ObservadorLog.java
-└── NotificadorEventos.java
+src/  
+│  
+├── main/  
+│ └── Main.java  
+│  
+├── factory/ (Patrón Creacional: Factory Method)  
+│ ├── Mensaje.java  
+│ ├── Email.java  
+│ ├── SMS.java  
+│ ├── Push.java  
+│ ├── CreadorMensaje.java  
+│ ├── CreadorEmail.java  
+│ ├── CreadorSMS.java  
+│ └── CreadorPush.java  
+│  
+├── decorator/ (Patrón Estructural: Decorator)  
+│ ├── MensajeDecorator.java  
+│ ├── EncriptadoDecorator.java  
+│ └── ComprimidoDecorator.java  
+│  
+└── observer/ (Patrón Comportamiento: Observer)  
+├── Observador.java  
+├── ObservadorConsola.java  
+├── ObservadorLog.java  
+└── NotificadorEventos.java  
 
 
 ---
